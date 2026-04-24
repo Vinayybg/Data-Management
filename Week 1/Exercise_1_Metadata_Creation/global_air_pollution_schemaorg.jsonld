@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Global Air Pollution Dataset",
+  "description": "A global dataset containing Air Quality Index (AQI) values and concentration measurements for major air pollutants — CO, Ozone, NO2, and PM2.5 — across cities and countries worldwide. Each row represents one city-level observation with the overall AQI value, categorical AQI label, and sub-index values for each pollutant. Useful for environmental analysis, pollution comparison, and data management teaching exercises.",
+  "creator": {
+    "@type": "Person",
+    "name": "Hasib Al Muzdadid",
+    "url": "https://www.kaggle.com/hasibalmuzdadid"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Kaggle",
+    "url": "https://www.kaggle.com"
+  },
+  "identifier": "10.34740/kaggle/dsv/3648132",
+  "url": "https://www.kaggle.com/datasets/hasibalmuzdadid/global-air-pollution-dataset",
+  "datePublished": "2022",
+  "keywords": [
+    "air quality",
+    "AQI",
+    "air pollution",
+    "CO",
+    "Ozone",
+    "NO2",
+    "PM2.5",
+    "environment",
+    "global"
+  ],
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "inLanguage": "en",
+  "spatialCoverage": "Global",
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "AQI Value",
+      "description": "Overall Air Quality Index (dimensionless)"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "CO AQI Value",
+      "description": "AQI sub-index for Carbon Monoxide"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Ozone AQI Value",
+      "description": "AQI sub-index for Ozone"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "NO2 AQI Value",
+      "description": "AQI sub-index for Nitrogen Dioxide"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PM2.5 AQI Value",
+      "description": "AQI sub-index for fine particulate matter PM2.5"
+    }
+  ],
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://www.kaggle.com/datasets/hasibalmuzdadid/global-air-pollution-dataset",
+    "name": "global air pollution dataset.csv"
+  }
+}

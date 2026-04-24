@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 https://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <identifier identifierType="DOI">10.34740/kaggle/dsv/3648132</identifier>
+  <creators>
+    <creator>
+      <creatorName nameType="Personal">Al Muzdadid, Hasib</creatorName>
+      <givenName>Hasib</givenName>
+      <familyName>Al Muzdadid</familyName>
+    </creator>
+  </creators>
+  <titles>
+    <title>Global Air Pollution Dataset</title>
+  </titles>
+  <publisher>Kaggle</publisher>
+  <publicationYear>2022</publicationYear>
+  <resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+  <subjects>
+    <subject>air quality</subject>
+    <subject>AQI</subject>
+    <subject>air pollution</subject>
+    <subject>CO</subject>
+    <subject>Ozone</subject>
+    <subject>NO2</subject>
+    <subject>PM2.5</subject>
+    <subject>environment</subject>
+    <subject>global</subject>
+  </subjects>
+  <descriptions>
+    <description descriptionType="Abstract">A global dataset containing Air Quality Index (AQI) values and concentration measurements for major air pollutants — CO, Ozone, NO2, and PM2.5 — across cities and countries worldwide. Each row represents one city-level observation with the overall AQI value, categorical AQI label, and sub-index values for each pollutant. Useful for environmental analysis, pollution comparison, and data management teaching exercises.</description>
+  </descriptions>
+  <rightsList>
+    <rights rightsURI="https://creativecommons.org/publicdomain/zero/1.0/" rightsIdentifier="CC0-1.0">CC0 1.0 Universal (Public Domain Dedication)</rights>
+  </rightsList>
+  <relatedIdentifiers>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementTo">https://www.kaggle.com/datasets/hasibalmuzdadid/global-air-pollution-dataset</relatedIdentifier>
+  </relatedIdentifiers>
+</resource>
